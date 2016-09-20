@@ -30,5 +30,15 @@ nav li a:hover {
 }
 
 header{
-	background-color: #FFC9C3;
+	background-color: #FF7364;
+	color: #EEB538;
+	font-family: Georgia, Palatino, serif;
+  	font-size: 70px;
+  	height: 85px;
+  	padding: 10px;	
+}
+
+header img{
+	float: left;
+	padding-right: 10px;
 }
