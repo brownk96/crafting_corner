@@ -42,3 +42,22 @@ header img{
 	float: left;
 	padding-right: 10px;
 }
+
+h2 {
+  	font-size: 24px;
+  	font-family: arial,sans-serif;
+  	color: #EE4938;
+  	text-align: center;
+}
+
+h3 {
+	font-size: 24px;
+  	font-family: arial,sans-serif;
+  	color: #258293;
+  	text-align: center;
+}
+
+.orderSum{
+	display: block;
+	background-color: #FFEDC3;
+}
