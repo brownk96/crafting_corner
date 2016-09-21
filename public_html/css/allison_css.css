@@ -42,6 +42,7 @@ header img{
 }
 
 h2 {
+	
   	font-size: 24px;
   	font-family: arial,sans-serif;
   	color: #EE4938;
@@ -83,4 +84,13 @@ p{
 	margin: 0px;
 	padding: 10px;
 	font-family: arial,sans-serif;
+}
+
+section{
+	background-color: #FFFEFD;
+	border-style: solid;
+	border-color: #FF7364;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 20px;
 }
