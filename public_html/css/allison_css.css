@@ -32,8 +32,8 @@ header{
 	color: #EEB538;
 	font-family: Georgia, Palatino, serif;
   	font-size: 70px;
-  	height: 85px;
-  	padding: 10px;	
+  	max-height: 85px;
+  	padding: 10px;
 }
 
 header img{
@@ -42,7 +42,9 @@ header img{
 }
 
 h2 {
-	
+	border-bottom-style: double;
+	border-color: #258293;
+	padding-bottom: 10px;
   	font-size: 24px;
   	font-family: arial,sans-serif;
   	color: #EE4938;
@@ -50,7 +52,10 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
+	border-bottom-style: double;
+	border-color: #EE4938;
+	padding-bottom: 10px;
+	font-size: 20px;
   	font-family: arial,sans-serif;
   	color: #258293;
   	text-align: center;
@@ -58,7 +63,14 @@ h3 {
 
 #orderSum{
 	display: block;
-	background-color: #FFEDC3;
+	background-color: #FF9A8F;
+	padding: 10px;
+	border-style: solid;
+	border-color: #258293;
+	border-collapse: collapse;
+	max-width: 740px;
+	font-family: arial,sans-serif;
+	font-size: 16px;
 }
 
 .directionHead{
@@ -66,6 +78,7 @@ h3 {
   	font-family: arial,sans-serif;
   	color: #258293;
   	text-align: left;
+  	margin-top: 5px;
 }
 
 footer{
@@ -76,6 +89,7 @@ footer{
 	padding-left:5px;
 	padding: 10px;
 	margin: 10px;
+	margin-left: 0px;
 
 }
 
@@ -93,4 +107,52 @@ section{
 	border-radius: 5px;
 	padding: 5px;
 	margin: 20px;
+}
+
+table th{
+	background: #258293;
+	color: #FFFEFD;
+	font-family: arial,sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	padding: 15px;
+}
+
+table img{
+	margin:10px;
+}
+
+table{
+	background-color: #FFEDC3;
+	max-width:800px;
+
+}
+
+table, th, td{
+	border-style: solid;
+	border-color: #258293;
+	border-collapse: collapse;
+}
+tr{
+	text-align: center;
+	font-family: arial,sans-serif;
+	font-size: 16px;
+}
+
+tr:hover{
+	background-color: #FFCF64;
+}
+
+section img{
+	padding: 10px;
+}
+
+form{
+	background: #FFEDC3;
+	padding:10px;
+	max-width: 200px;
+	border-style: solid;
+	border-color: #258293;
+	font-family: arial,sans-serif;
+	font-size: 16px;
 }
