@@ -23,9 +23,7 @@ nav li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
 nav li a:hover {
-  /* This is a three digit code. Same as #111111 */
   background-color: #EEB538;
 }
 
@@ -67,4 +65,22 @@ h3 {
   	font-family: arial,sans-serif;
   	color: #258293;
   	text-align: left;
+}
+
+footer{
+	background-color: #FFFEFD;
+	border-color: #FF7364;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	padding-left:5px;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+p{
+	background-color: #FFFEFD;
+	margin: 0px;
+	padding: 10px;
+	font-family: arial,sans-serif;
 }
