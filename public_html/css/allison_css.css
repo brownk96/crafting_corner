@@ -57,7 +57,14 @@ h3 {
   	text-align: center;
 }
 
-.orderSum{
+#orderSum{
 	display: block;
 	background-color: #FFEDC3;
+}
+
+.directionHead{
+	font-size: 24px;
+  	font-family: arial,sans-serif;
+  	color: #258293;
+  	text-align: left;
 }
