@@ -1,3 +1,12 @@
 body {
   background: #ece3d7;
 }
+
+header {
+    background-color: #931a2a;
+    color: #f9e5af;
+    font-size: 60px;
+    font-family: Georgia, Palatino, serif;
+    padding: 10px;
+    height: 75px;
+}
