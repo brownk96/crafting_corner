@@ -156,3 +156,28 @@ form{
 	font-family: arial,sans-serif;
 	font-size: 16px;
 }
+
+input[type=submit]{
+	display: block;
+	color: #FFFEFD;
+	background-color: #258293;
+	font-family: arial,sans-serif;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+button{
+	display: block;
+	color: #EE4938;
+	background-color: #FFCF64;
+	font-family: arial,sans-serif;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+button:hover{
+	background-color: #EE4938;
+	color: #FFCF64;
+}
