@@ -11,6 +11,10 @@ header {
     height: 75px;
 }
 
+ #theheader {
+    color: red;
+    
+}
 
 article {
     border-style: solid;
@@ -28,14 +32,26 @@ section {
 h1 {
     font-size: 24px;
     font-family: arial, sans-serif;
-    color: rgb(147, 26, 42);
+    color: rgb(230, 230, 42);
     text-align: center;
 }
 
 h2 {
     font-size: 20px;
     font-family: arial, sans-serif;
-    color: rgb(147, 26, 42);
+    color: rgb(230, 230, 42);
+    text-align: center;
+}
+
+p {
+    font-family: verdana,sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+    color: red;
 }
 
 .prerequisite {
@@ -65,4 +81,13 @@ nav li a {
 
 nav li a:hover {
     background-color: #111111;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
