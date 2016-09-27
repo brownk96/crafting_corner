@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+      <style>
+      .below_menu_container{
+        padding-top: 75px;
+      }
+      </style>
 </head>
 
 <body>
@@ -49,13 +54,14 @@
       </div>
     </nav>
     
-    <img src="img/Directions.png" alt="Crafting Corner Map" width="300">
+    <div class="container">
+     <div class="below_menu_container">
     
     <h3>Our Address:</h3>
-    <u>123 N St.</u>
-    <br>
-    <u>Indianola, IA 50125</u>
-    <p>If you're approaching Indianola from the North, take a left off of Jefferson to N St. We are on the right.</p>
+    <img src="img/Directions.png" alt="Crafting Corner Map" width="300">
+    <p><u>123 N St.</u><br>
+    <u>Indianola, IA 50125</u><br>
+    If you're approaching Indianola from the North, take a left off of Jefferson to N St. We are on the right.</p>
     
     <h3>Hours:</h3>
     <p>Monday-Friday: 8:00am-5:00pm</p>
@@ -65,9 +71,11 @@
     <p>(515)555-1234</p>
     
     <br>
-    <footer>
+    <footer style="padding-top: 10px;">
         <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
     </footer>
+    </div>
+    </div>
 
         <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

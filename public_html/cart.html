@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+      <style>
+      .below_menu_container{
+        padding-top: 50px;
+      }
+      </style>    
 </head>
 
 <body>
@@ -49,10 +54,12 @@
       </div>
     </nav>
     
+    <div class="container">
+     <div class="below_menu_container">
     <h2>Cart</h2>
-    <h3>Cart Total: $17.56</h3>
+    <h4>Cart Total: $17.56</h4>
     
-    <table>
+    <table class="table table-hover">
         <thead>
             <tr>
                 <th>Product</th>
@@ -85,12 +92,15 @@
     <h5>Delivery: $2.00</h5>
     <h5>Estimated Tax: $0.56</h5>
     <h4>Total: $17.56</h4>
-    <h3>Checkout</h3>
+    
+    <button type="button" class="btn btn-primary">Checkout</button>
     
     <br>
-    <footer>
+    <footer style="padding-top: 10px;">
         <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
     </footer>
+    </div>
+    </div>
 
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

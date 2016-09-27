@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+      <style>
+      .below_menu_container{
+        padding-top: 50px;
+      }
+      </style>
 </head>
 
 <body>
@@ -49,20 +54,32 @@
       </div>
     </nav>
 
+    <div class="container">
+    <div class="below_menu_container">
     <h2>Login</h2>
 
-    <form>
-        Username:<br>
-        <input type="text" name="username"><br>
-        Password:<br>
-        <input type="password" name="password"><br><br>
-        <input type="checkbox" name="remember" value="username">Remember Username?<br><br>
-        <input type="submit" value="Submit">
+    <form style="width: 300px;" > 
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" class="form-control" placeholder="Username" >
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control" placeholder="Password">
+        </div>
+        <div class="checkbox">
+            <label>
+            <input type="checkbox" id="remember" value="username">Remember Username?
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
     </form>
     
-    <footer>
+    <footer style="padding-top: 10px;">
         <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
     </footer>
+    </div>
+    </div>
 
         <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
