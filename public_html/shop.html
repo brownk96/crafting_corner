@@ -6,15 +6,48 @@
 <head>
     <meta charset="utf-8">
     <title>Suzie's Crafting Corner Shopping</title>
+    
+       <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+ <style>
+      .below_menu_container{
+        padding-top: 50px;
+      }
+ </style>
+    
 </head>
 
 <body>
-    <div>
-        <h1><img src="img/crafting_corner.png" alt="Main Graphic" width="100">Suzie's Crafting Corner</h1>
-    </div>
+
     
-    <nav>
-        <ul>
+     <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+  <!-- Title on nav bar -->
+          <a class="navbar-left"><img src="img/crafting_corner.png" alt="Main Graphic" width="50" style="margin-right: 10px; margin-top: 5px;"></a>
+          <a class="navbar-brand" href="index.html">Suzie's Crafting Corner</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -40,9 +73,21 @@
                 <a href="sign_up.html">Sign Up</a>
             </li>
         </ul>
+        </div>
+        </div>
     </nav>
     
-    <h2>Products</h2>
+            <!-- Main content -->
+    <div class="container">
+      <!-- This container moves below the menu bar -->
+      <div class="below_menu_container">
+        <h1>Products</h1>
+      </div>
+
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <table>
         <thead>
             <tr>
@@ -103,6 +148,7 @@
     <br>
     <div>
         <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
+    </div>
     </div>
 </body>
 </html>
