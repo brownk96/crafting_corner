@@ -13,11 +13,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
-      <style>
-      .below_menu_container{
-        padding-top: 75px;
-      }
-      </style>
+    <!-- Our custom stylesheet that WE write. We need this to not have our
+         text appear under the nav bar. -->
+    <link rel="stylesheet" href="css/allison_bootstrap_css.css">
 </head>
 
 <body>
@@ -35,7 +33,7 @@
           </button>
 
           <!-- Title on nav bar -->
-          <a class="navbar-left"><img src="img/CraftingCorner.png" alt="Main Graphic" width="50" style="margin-right: 10px; margin-top: 5px;"></a>
+          <a class="navbar-left"><img src="img/CraftingCorner.png" alt="Main Graphic" width="50" ></a>
           <a class="navbar-brand" href="index.html">Suzie's Crafting Corner</a>
         </div>
 
@@ -57,23 +55,39 @@
     <div class="container">
      <div class="below_menu_container">
     
-    <h3>Our Address:</h3>
+
+    
+    <div class="col-xs-12 col-md-4 imgsmlpad">
     <img src="img/Directions.png" alt="Crafting Corner Map" width="300">
+    </div>
+    <div class="col-xs-12 col-md-4">
+    <h3>Our Address:</h3>
     <p><u>123 N St.</u><br>
     <u>Indianola, IA 50125</u><br>
     If you're approaching Indianola from the North, take a left off of Jefferson to N St. We are on the right.</p>
+    </div>
+
+    <div class="col-md-4"></div>
     
+    <div class="col-xs-12 col-md-6">
     <h3>Hours:</h3>
     <p>Monday-Friday: 8:00am-5:00pm</p>
     <p>Saturday-Sunday: CLOSED</p>
+    </div>
     
+     <div class="col-md-4"></div>
+    <div class="col-xs-12 col-md-6">
     <h3>Phone Number:</h3>
     <p>(515)555-1234</p>
+    <br>
+    </div>
     
     <br>
-    <footer style="padding-top: 10px;">
+    <div class="col-xs-12 col-md-12">
+    <footer>
         <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
     </footer>
+    </div>
     </div>
     </div>
 
