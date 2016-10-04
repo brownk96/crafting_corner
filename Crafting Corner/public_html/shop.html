@@ -1,55 +1,69 @@
-<!-- Kirk Wicks edited -->
+<!-- Sydney is navigator-->
 
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Suzie's Crafting Corner Shopping</title>
-    
-    <link rel="stylesheet" type="text/css" href="css/index_css.css">
-    
+    <title>Suzie's Crafting Corner About</title>
+    <!-- This says our CSS is compatible with phones, and phones
+    don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+    <!-- Our custom stylesheet that WE write. We need this to not have our
+         text appear under the nav bar. -->
+    <link rel="stylesheet" href="css/allison_bootstrap_css.css">
 </head>
 
 <body>
-    <div>
-        <h1 style="text-align:center; font-size: 50px;"><img src="img/Crafting%20Corner.png" alt="Main Graphic" width="100">Suzie's Crafting Corner</h1>
-    </div>
-    
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="about.html">About</a>
-            </li>
-            <li>
-                <a href="directions.html">Directions</a>
-            </li>
-            <li>
-                <a href="shop.html">Shop</a>
-            </li>
-            <li>
-                <a href="sale.html">Sale</a>
-            </li>
-            <li>
-                <a href="cart.html">Cart</a>
-            </li>
-            <li>
-                <a href="login.html">Login</a>
-            </li>
-            <li>
-                <a href="sign_up.html">Sign Up</a>
-            </li>
-        </ul>
+        <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Title on nav bar -->
+          <a class="navbar-left"><img src="img/CraftingCorner.png" alt="Main Graphic" width="50"></a>
+          <a class="navbar-brand" href="index.html">Suzie's Crafting Corner</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="directions.html">Directions</a></li>
+            <li class="active"><a href="shop.html">Shop</a></li>
+            <li><a href="sale.html">Sale</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="sign_up.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     
-    <p>Below you will find a list of just some of the items that Suzie's Crafting Corner has to offer. We have a variety of different colored fabrics along
-    with some of the basic crafting needs like pipe cleaners, buttons, and everyone's favorite those little fuzz balls that are just oh so fun to play with!!</p>
-    
+    <div class="container">
+    <div class="below_menu_container">
     <h2>Products</h2>
-    <table>
+    <div class="alert alert-info" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        Be sure to check out our <a href="sale.html" class="alert-link">sales</a> page!
+    </div>
+    <table class="table table-hover">
         <thead>
             <tr>
                 <th>Product</th>
@@ -110,5 +124,10 @@
     <footer>
         <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
     </footer>
+    </div>
+    </div>
+        <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

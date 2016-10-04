@@ -1,62 +1,78 @@
-<!-- Kirk Wicks edited -->
+<!-- Taylor is navigator-->
 
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    
-    <link rel="stylesheet" type="text/css" href="css/index_css.css">
-    
     <title>Suzie's Crafting Corner About</title>
+    <!-- This says our CSS is compatible with phones, and phones
+    don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+    <!-- Our custom stylesheet that WE write. We need this to not have our
+         text appear under the nav bar. -->
+    <link rel="stylesheet" href="css/allison_bootstrap_css.css">
 </head>
 
 <body>
-    <div>
-        <h1 style="text-align:center; font-size: 50px;"><img src="img/Crafting%20Corner.png" alt="Main Graphic" width="100">Suzie's Crafting Corner</h1>
-    </div>
     
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="about.html">About</a>
-            </li>
-            <li>
-                <a href="directions.html">Directions</a>
-            </li>
-            <li>
-                <a href="shop.html">Shop</a>
-            </li>
-            <li>
-                <a href="sale.html">Sale</a>
-            </li>
-            <li>
-                <a href="cart.html">Cart</a>
-            </li>
-            <li>
-                <a href="login.html">Login</a>
-            </li>
-            <li>
-                <a href="sign_up.html">Sign Up</a>
-            </li>
+        <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
 
-        </ul>
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Title on nav bar -->
+          <a class="navbar-left"><img src="img/CraftingCorner.png" alt="Main Graphic" width="50"></a>
+          <a class="navbar-brand" href="index.html">Suzie's Crafting Corner</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="directions.html">Directions</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="sale.html">Sale</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="sign_up.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     
+    <div class="container">
+     <div class="below_menu_container">
     <h2>About Us</h2>
     
     <p>We are a group of motivated individuals who care about the intense and rewarding world of crafting! If you care about crafting as much as we do, you're in the right place! Our company was founded in 1982 by Suzie Crafty and have been growing and expanding ever since! Now we are the number one crafting supplier on the World Wide Web! We care about customer service, so if you are not having a satisfactory experience on our website, we would like to hear from you.</p>
     
     <p>As mentioned above, we are in the business of selling crafting supplies and we have everything you'll need for any kind of craft all in one convenient location. Our main location is in Indianola, Iowa but we deliver to all of the 50 states for your convenience. We also always have a great selection of sale items that are perfect to stock up on for future crafting. We hope you enjoy our services and we thank you for visiting our site.</p>
     
-    <h4><img src="img/Employees.png" alt="Crafting Corner Employees" width="400"></h4>
-    <h4>The Crafting Corner Team</h4>
+    <img src="img/Employees.png" alt="Crafting Corner Employees" width="400">
+    <h4>-The Crafting Corner Team</h4>
     
     <footer>
-        <h3>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</h3>
+        <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
     </footer>
+    </div>
+    </div>
+
+
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,57 +1,63 @@
-<!-- Kirk Wicks edited -->
+<!-- Sydney is navigator-->
 
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Suzie's Crafting Corner Cart</title>
-    
-    <link rel="stylesheet" type="text/css" href="css/index_css.css">
-    
+    <title>Suzie's Crafting Corner About</title>
+    <!-- This says our CSS is compatible with phones, and phones
+    don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+    <!-- Our custom stylesheet that WE write. We need this to not have our
+         text appear under the nav bar. -->
+    <link rel="stylesheet" href="css/allison_bootstrap_css.css">  
 </head>
 
 <body>
-    <div>
-        <h1 style="text-align:center; font-size: 50px;"><img src="img/Crafting%20Corner.png" alt="Main Graphic" width="100">Suzie's Crafting Corner</h1>
-    </div>
-    
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="about.html">About</a>
-            </li>
-            <li>
-                <a href="directions.html">Directions</a>
-            </li>
-            <li>
-                <a href="shop.html">Shop</a>
-            </li>
-            <li>
-                <a href="sale.html">Sale</a>
-            </li>
-            <li>
-                <a href="cart.html">Cart</a>
-            </li>
-            <li>
-                <a href="login.html">Login</a>
-            </li>
-            <li>
-                <a href="sign_up.html">Sign Up</a>
-            </li>
-        </ul>
+        <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Title on nav bar -->
+          <a class="navbar-left"><img src="img/CraftingCorner.png" alt="Main Graphic" width="50"></a>
+          <a class="navbar-brand" href="index.html">Suzie's Crafting Corner</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="about.html">About</a></li>
+            <li><a href="directions.html">Directions</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="sale.html">Sale</a></li>
+            <li class="active"><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="sign_up.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     
-    <p>Here is your current shopping cart for your online purchases. Displayed will be a picture of what you are purchasing, a description of the product,
-    the price per unit of the product, the quantity of the product you are buying, and the total price for the amount of products you are buying. </p>
-    
+    <div class="container">
+     <div class="below_menu_container">
     <h2>Cart</h2>
-    <h3>Cart Total: $17.56</h3>
+    <h4>Cart Total: $17.56</h4>
     
-    <table>
+    <table class="table table-hover">
         <thead>
             <tr>
                 <th>Product</th>
@@ -63,7 +69,7 @@
         </thead>
         <tbody>
             <tr>
-                <td><img src="img/scissors%202.png" alt="Scissors" width="100"></td>
+                <td><img src="img/scissors2.png" alt="Scissors" width="100"></td>
                 <td>Scissors</td>
                 <td>$4.50</td>
                 <td>2</td>
@@ -84,11 +90,18 @@
     <h5>Delivery: $2.00</h5>
     <h5>Estimated Tax: $0.56</h5>
     <h4>Total: $17.56</h4>
-    <h3>Checkout</h3>
+    
+    <button type="button" class="btn btn-primary">Checkout</button>
     
     <br>
     <footer>
         <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
     </footer>
+    </div>
+    </div>
+
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
