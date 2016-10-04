@@ -16,10 +16,32 @@
     <!-- Our custom stylesheet that WE write. We need this to not have our
          text appear under the nav bar. -->
     <link rel="stylesheet" href="css/allison_bootstrap_css.css">
+    <style>
+    .jumbotron {
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+      background-image: url("img/balloons.jpg");
+      background-position: 0% 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: black 0.3em 0.3em 0.3em;
+
+    }
+    .lead {
+      color: white;
+      margin-top: 10%;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    p.center {
+        padding: 100px 0;
+    }
+    </style>
 </head>
 
 <body>
-        <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -53,34 +75,42 @@
     </nav>
 
     <div class="container">
-    <div class="below_menu_container">
+        <div class="below_menu_container">
+            <div class="jumbotron">
+                <h2>Are you CUT out for the crafting game?</h2>
+                <p class="lead">
+                It takes a special kind of person to craft. Whether you're stocking up to make your own clothing during the zombie apocalypse or just want to make pipe cleaner headsets, Crafting Corner is the place for you!
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-info" href="shop.html" role="button">Shop</a>
+                </p>
+            </div>
 
-    <div class="jumbotron">
-    <h2>Are you CUT out for the crafting game?</h2>
+            <div class="row">
+                <div class="col-xs-12 col-s-6 col-md-6">
+                    <h2 style="color: #802259;">Crafting Supply of the Month</h2>
+                    <img src="img/sewingMachine.png" alt="Supply of the Month" height="400">
+                </div>
+                <div class="col-xs-12 col-s-6 col-md-6">
+                    <p class="center" style="font-size: 16px;"> This month we are featuring the Sewing8000 Sewing Machine. While similar to its predecessor Sewing7999, the Sewing8000 costs only $6000! That's less than half the price of the previous version! In addition to being cheaper, the Sewing8000 comes with incredible features. It has easy threading so there's no longer any need to worry about pricking your fingers! Also, the Sewing8000 features SewingWorld's new technology IntuiSew! The days of needing pedals are over! Now just put the fabric up to the needle and it does all the work! You almost don't even need to be there at all! With the Sewing8000, sewing is easier than ever! Pick one up in our store today!
+                    <br>
+                    <br>
+                    <a class="btn btn-lg btn-info" href="shop.html" role="button">Buy Sewing8000</a>
+                    </p>
+                </div>
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 style="color: #802259;">Where we've been featured:</h2>
+                    <img src="img/logos.png" alt="Logos">
 
-    <p>It takes a special kind of person to craft. Whether you're stocking up to make your own clothing during the zombie apocalypse or just want to make pipe cleaner headsets, Crafting Corner is the place for you!</p>
-
-    <a class="btn btn-info" href="shop.html" role="button">Shop</a>
-    </div>
-
-    
-    <article>
-        <h3>Crafting Supply of the Month</h3>
-        <img src="img/sewingMachine.png" alt="Supply of the Month">
-        <p> This month we are featuring the Sewing8000 Sewing Machine. While similar to its predecessor Sewing7999, the Sewing8000 costs only $6000! That's less than half the price of the previous version! In addition to being cheaper, the Sewing8000 comes with incredible features. It has easy threading so there's no longer any need to worry about pricking your fingers! Also, the Sewing8000 features SewingWorld's new technology IntuiSew! The days of needing pedals are over! Now just put the fabric up to the needle and it does all the work! You almost don't even need to be there at all! With the Sewing8000, sewing is easier than ever! Pick one up in our store today!</p>
-    </article>
-    
-    <h3>Where we've been featured:</h3>
-    <img src="img/logos.png" alt="Logos">
-
-    <h3>Shop Our Instagram</h3>
-    <img src="img/instagram.png" alt="Instagram pics">
-    
-    
-    <footer>
-        <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
-    </footer>
-    </div>
+                    <h2 style="color: #802259;">Shop Our Instagram</h2>
+                    <img src="img/instagram.png" alt="Instagram pics">
+                </div>
+            </div>
+            
+            <footer>
+                <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
+            </footer>
+        </div>
     </div>
         <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
