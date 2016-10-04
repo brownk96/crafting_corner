@@ -1,0 +1,23 @@
+.jumbotron{
+	margin-top: 10px;
+}
+
+#gender_section
+{
+	text-decoration: underline;
+}
+
+.shelter_table td
+{
+	width: 170px;
+		border:	1px solid black;
+
+
+
+}
+.shelter_table th
+
+{
+
+		border:	1px solid black;
+}
