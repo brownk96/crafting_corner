@@ -1,0 +1,253 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Suzie's Crafting Corner About</title>\n    <!-- This says our CSS is compatible with phones, and phones\n    don't need to scale it strangely. -->\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- Main CSS styles for Bootstrap -->\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n    <!-- Optional theme add-on -->\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css\">\n    <!-- Our custom stylesheet that WE write. We need this to not have our\n         text appear under the nav bar. -->\n    <link rel=\"stylesheet\" href=\"css/allison_bootstrap_css.css\">\n</head>\n\n<body>\n        <!-- Navigation Bar -->\n    <nav class=\"navbar navbar-inverse navbar-fixed-top\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n\n            <!-- Three line \"hamburger\" icon for the collapsed navigation -->\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n\n          <!-- Title on nav bar -->\n          <a class=\"navbar-left\"><img src=\"img/CraftingCorner.png\" alt=\"Main Graphic\" width=\"50\" ></a>\n          <a class=\"navbar-brand\" href=\"index.html\">Suzie's Crafting Corner</a>\n        </div>\n\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li><a href=\"index.html\">Home</a></li>\n            <li><a href=\"about.html\">About</a></li>\n            <li><a href=\"directions.html\">Directions</a></li>\n            <li><a href=\"shop.html\">Shop</a></li>\n            <li class=\"active\"><a href=\"sale.html\">Sale</a></li>\n            <li><a href=\"cart.html\">Cart</a></li>\n            <li><a href=\"login.html\">Login</a></li>\n            <li><a href=\"sign_up.html\">Sign Up</a></li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n    \n    <div class=\"container\">\n        <div class=\"below_menu_container\">\n            <h2>Sale Products</h2>\n\n            <H4 style=\"text-align:center\">Oh well hi there! Looks like you've found our sales page. Here you'll see what products are on sale and how many we have left in stock. You better hurry though, these products are going fast and won't be in stock and on sale for long!! </H4>\n            \n            <table class=\"table table-hover\">\n                <thead>\n                    <tr>\n                        <th>Product</th>\n                        <th>Product Description</th>\n                        <th>Original Price</th>\n                        <th>Discounted Price</th>\n                        <th>Quantity</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td><img src=\"img/GooglyEyes.png\" alt=\"Googly Eyes\" width=\"100\"></td>\n                        <td>Googly Eyes</td>\n                        <td>$4.99</td>\n                        <td>$2.99</td>\n                        <td>0</td>\n                    </tr>\n                    <tr>\n                        <td><img src=\"img/Scissors.png\" alt=\"Googly Eyes\" width=\"100\"></td>\n                        <td>Scissors</td>\n                        <td>$7.99</td>\n                        <td>$4.50</td>\n                        <td>2</td>\n                    </tr>\n                    <tr>\n                        <td><img src=\"img/Glue.png\" alt=\"Googly Eyes\" width=\"100\"></td>\n                        <td>Glue</td>\n                        <td>$5.99</td>\n                        <td>$1.50</td>\n                        <td>0</td>\n                    </tr>\n                </tbody>\n            </table>\n        \n            <h5>More Products...</h5>\n        \n            <br>\n            <footer>\n                <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>\n            </footer>\n        </div>\n    </div>\n        <!-- Scripts required to make Bootstrap work better. -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"></script>\n    <script type=\"text/javascript\" src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n    \n</body>\n\n</html>",
+			"file": "Crafting Corner/public_html/sale.html",
+			"file_size": 4484,
+			"file_write_time": 131202448780000000,
+			"settings":
+			{
+				"buffer_size": 4484,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Suzie's Crafting Corner About</title>\n    <!-- This says our CSS is compatible with phones, and phones\n    don't need to scale it strangely. -->\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- Main CSS styles for Bootstrap -->\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n    <!-- Optional theme add-on -->\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css\">\n    <!-- Our custom stylesheet that WE write. We need this to not have our\n         text appear under the nav bar. -->\n    <link rel=\"stylesheet\" href=\"css/allison_bootstrap_css.css\">\n</head>\n\n<body>\n        <!-- Navigation Bar -->\n    <nav class=\"navbar navbar-inverse navbar-fixed-top\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n\n            <!-- Three line \"hamburger\" icon for the collapsed navigation -->\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n\n          <!-- Title on nav bar -->\n          <a class=\"navbar-left\"><img src=\"img/CraftingCorner.png\" alt=\"Main Graphic\" width=\"50\"></a>\n          <a class=\"navbar-brand\" href=\"index.html\">Suzie's Crafting Corner</a>\n        </div>\n\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li><a href=\"index.html\">Home</a></li>\n            <li><a href=\"about.html\">About</a></li>\n            <li><a href=\"directions.html\">Directions</a></li>\n            <li class=\"active\"><a href=\"shop.html\">Shop</a></li>\n            <li><a href=\"sale.html\">Sale</a></li>\n            <li><a href=\"cart.html\">Cart</a></li>\n            <li><a href=\"login.html\">Login</a></li>\n            <li><a href=\"sign_up.html\">Sign Up</a></li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n    \n    <div class=\"container\">\n        <div class=\"below_menu_container\">\n            <h2>Products</h2>\n\n            <H4 style=\"text-align:center\">Below you will find a list of just some of the items that Suzie's Crafting Corner has to offer. We have a variety of different colored fabrics along with some of the basic crafting needs like pipe cleaners, buttons, and everyone's favorite those little fuzz balls that are just oh so fun to play with!!</H4>\n\n            <div class=\"alert alert-info\" role=\"alert\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n                    <span aria-hidden=\"true\">&times;</span>\n                </button>\n\n                <span class=\"glyphicon glyphicon-star\" aria-hidden=\"true\"></span>\n                Be sure to check out our <a href=\"sale.html\" class=\"alert-link\">sales</a> page!\n            </div>\n\n\n            <table class=\"table table-hover\">\n                <thead>\n                    <tr>\n                        <th>Product</th>\n                        <th>Product Description</th>\n                        <th>Price</th>\n                        <th>Quantity</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td><img src=\"img/redFabric.png\" alt=\"Red Fabric\" width=\"100\"></td>\n                        <td>Red Fabric</td>\n                        <td>$3.99</td>\n                        <td>1</td>\n                    </tr>\n                    <tr>\n                        <td><img src=\"img/blueFabric.png\" alt=\"Blue Fabric\" width=\"100\"></td>\n                        <td>Blue Fabric</td>\n                        <td>$3.99</td>\n                        <td>0</td>\n                    </tr>\n                    <tr>\n                        <td><img src=\"img/greenFabric.png\" alt=\"Green Fabric\" width=\"100\"></td>\n                        <td>Green Fabric</td>\n                        <td>$3.99</td>\n                        <td>0</td>\n                    </tr>\n                    <tr>\n                        <td><img src=\"img/patternFabric.png\" alt=\"Pattern Fabric\" width=\"100\"></td>\n                        <td>Pattern Fabric</td>\n                        <td>$5.99</td>\n                        <td>5</td>\n                    </tr>\n                    <tr>\n                        <td><img src=\"img/pipeCleaners.png\" alt=\"Pipe Cleaners\" width=\"100\"></td>\n                        <td>Pipe Cleaners</td>\n                        <td>$7.00</td>\n                        <td>4</td>\n                    </tr>\n                    <tr>\n                        <td><img src=\"img/buttons.png\" alt=\"Buttons\" width=\"100\"></td>\n                        <td>Buttons</td>\n                        <td>$1.75</td>\n                        <td>7</td>\n                    </tr>\n                    <tr>\n                        <td><img src=\"img/pompoms.png\" alt=\"PomPoms\" width=\"100\"></td>\n                        <td>PomPoms</td>\n                        <td>$2.50</td>\n                        <td>10</td>\n                    </tr>\n                </tbody>\n            </table>\n            \n            <h5>More Products...</h5>\n            \n            <br>\n            <footer>\n                <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>\n            </footer>\n        </div>\n    </div>\n        <!-- Scripts required to make Bootstrap work better. -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"></script>\n    <script type=\"text/javascript\" src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n</body>\n\n</html>",
+			"file": "Crafting Corner/public_html/shop.html",
+			"file_size": 5862,
+			"file_write_time": 131202449160000000,
+			"settings":
+			{
+				"buffer_size": 5862,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Web Development/crafting_corner"
+	],
+	"file_history":
+	[
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Crafting Corner/public_html/sale.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Crafting Corner/public_html/shop.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Sublime.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
