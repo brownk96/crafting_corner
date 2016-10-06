@@ -68,28 +68,41 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="alert alert-danger" role="alert">
                 <td><img src="img/scissors2.png" alt="Scissors"></td>
-                <td>Scissors</td>
+                <td>Scissors - Last pair available!</td>
                 <td>$4.50</td>
-                <td>2</td>
-                <td>$9.00</td>
+                <td>1</td>
+                <td>$4.50</td>
             </tr>
             <tr>
                 <td><img src="img/canvas.png" alt="Canvas"></td>
                 <td>Canvas <br></td>
                 <td>$6.00</td>
-                <td>1</td>
-                <td>$6.00</td>
+                <td>2</td>
+                <td>$12.00</td>
             </tr>
         </tbody>
     </table>
     
+    <form> 
+        <div class="form-group">
+            <label for="discountCode">Discount Code</label>
+            <input type="text" name="discountCode" id="discountCode" class="form-control" placeholder="Enter Code Here">
+        </div>
+        <br>
+        <div class="form-group">
+            <button type="submit" class="btn btn-info">Apply Discount Code</button>
+        </div>
+    </form>
+    
     <h4>Order Summary</h4>
-    <h5>Subtotal: $15.00</h5>
+    <h5>Subtotal: $16.50</h5>
     <h5>Delivery: $2.00</h5>
-    <h5>Estimated Tax: $0.56</h5>
-    <h4>Total: $17.56</h4>
+    <h5>Estimated Tax: $1.16</h5>
+    <h4>Total: $19.66</h4>
+    
+    <br>
     
     <button type="button" class="btn btn-primary">Checkout</button>
     
