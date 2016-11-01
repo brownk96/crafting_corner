@@ -96,7 +96,7 @@
             <br>
             <br>
         
-            <h5> <a href="shop.html">More Products...</a></h5>
+            <h5> <a href="shop.php">More Products...</a></h5>
 
             <?php include "../resources/footer.php"; ?>
         </div>

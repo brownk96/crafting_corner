@@ -38,7 +38,7 @@
                 </button>
 
                 <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                Be sure to check out our <a href="sale.html" class="alert-link">sales</a> page!
+                Be sure to check out our <a href="sale.php" class="alert-link">sales</a> page!
             </div>
 
             <div class="alert alert-success" role="alert">
@@ -105,7 +105,7 @@
                 </tbody>
             </table>
             
-            <h5> <a href="sale.html">More Products...</a></h5>
+            <h5> <a href="sale.php">More Products...</a></h5>
             
             <br>
             <?php include "../resources/footer.php"; ?>

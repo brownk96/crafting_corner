@@ -95,7 +95,7 @@
                     </div>
                     <hr>
                     <div style="text-align: center;">
-                      <a class="btn btn-lg btn-info" href="shop.html" role="button">Buy Sewing8000</a>
+                      <a class="btn btn-lg btn-info" href="shop.php" role="button">Buy Sewing8000</a>
                     </div>
                 </div>
 
