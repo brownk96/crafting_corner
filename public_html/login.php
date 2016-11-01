@@ -53,9 +53,7 @@
         <button type="submit" class="btn btn-info">Submit</button>
     </form>
     
-    <footer>
-        <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
-    </footer>
+    <?php include "../resources/footer.php"; ?>
     </div>
     </div>
 

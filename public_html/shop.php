@@ -108,9 +108,7 @@
             <h5> <a href="sale.html">More Products...</a></h5>
             
             <br>
-            <footer>
-                <p>&copy; 2016 Suzie's Crafting Corner. All rights reserved.</p>
-            </footer>
+            <?php include "../resources/footer.php"; ?>
         </div>
     </div>
         <!-- Scripts required to make Bootstrap work better. -->
