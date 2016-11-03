@@ -89,7 +89,7 @@
     
     </div>
     
-    <div class="col-xs-12 col-md-12">
+    <div> 
     <br>
     <?php include "../resources/footer.php"; ?>
     </div>
