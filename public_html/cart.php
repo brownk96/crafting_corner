@@ -87,10 +87,11 @@
     
     <button type="button" class="btn btn-info">Checkout</button>
     
+    </div>
+    
     <div class="col-xs-12 col-md-12">
     <br>
     <?php include "../resources/footer.php"; ?>
-    </div>
     </div>
     </div>
 
