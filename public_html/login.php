@@ -53,7 +53,7 @@
         <button type="submit" class="btn btn-info">Submit</button>
     </form>
     
-    <div class="col-xs-12 col-md-12">
+    <div>
     <?php include "../resources/footer.php"; ?>
     </div>
     </div>
